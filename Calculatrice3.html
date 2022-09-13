@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Ecrire un programme qui calcule la r&eacute;duction du prix d&#8217;une BD (-30%)</title>
+
+<script type="text/javascript"> 
+var prixBD;
+var prixreduitBD ;
+function Main(){  
+prixBD = document.formBD.prix.value ;
+prixreduitBD = (prixBD*0.7) ;
+document.formBD.prixreduit.value = prixreduitBD ;
+}
+</script>
+
+</head>
+<body>
+<h1>Calculez le prix d'une BD</h1>
+<form name="formBD">
+	<input type="Text" name="prix"> - 30%
+	<input type="Button" value=" = " onclick="Main();"> <input type="Text" name="prixreduit">
+</form>
+</body>
+</html>

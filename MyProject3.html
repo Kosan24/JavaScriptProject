@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+   
+   <title>Texte lacunaire</title>
+   <script>
+      var prop1;
+      var prop2;
+      var prop3;
+      function Main(){
+         prop1=document.form.prop1.value;
+         prop2=document.form.prop2.value;
+         prop3=document.form.prop3.value;
+      }
+   </script>
+</head>
+<body>
+<h1>Complétez le texte lacunaire suivant:</h1>
+<p>Les … de cette bande … sont des petits … tout bleus</p>
+<form name="form">
+1er mot manquant: <input type="text" name="prop1"/><br>
+   2ème mot manquant: <input type="text" name="prop2"><br>
+      3ème mot manquant: <input type="text" name="prop3"><br>
+      <input type="button" value="Compléter le texte" onClick="Main();">
+      </form>
+   </body>
+</html>

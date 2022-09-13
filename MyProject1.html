@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Affichage du stock des produits</title>
+	
+</head>
+
+<body>
+	<h1>Magasin de sport</h1>
+	<h2>Affichage du stock des produits</h2>
+	
+	<form method="get" action="traitement.php">
+		
+	Marque :    <select name="inputMarque">
+		
+		<option value="0">Toutes les marques</option>
+		<option value="1">Adidas</option>
+		<option value="2">Nike</option>
+		<option value="3">Puma</option>
+		
+		</select>
+		
+	Prix maximum :  <input type="text" name="inputPrix">
+	Categorie    :  <select name="inputCategorie">
+				<option value="0">Toutes les categories</option>
+				<option value="1">Ballons de sport</option>
+				<option value="2">Chaussures de sport</option>
+
+				</select>
+		
+		<input type="submit" name="inputSubmit" value="Enovoyer">
+		<input type="reset" name="inputReset" value="Reinitialiser">
+
+	</form>
+	
+	
+</body>
+</html>
